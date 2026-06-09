@@ -28,7 +28,7 @@ export async function POST(req: NextRequest) {
     `).join('')
 
     await resend.emails.send({
-      from: process.env.RESEND_FROM_EMAIL || 'hello@seentesting.com',
+      from: process.env.RESEND_FROM_EMAIL || 'onboarding@resend.dev',
       to: email,
       subject: `${firstName ? `${firstName}, your` : 'Your'} fertility test matches from Seen Testing`,
       html: `
