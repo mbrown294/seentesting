@@ -1,8 +1,13 @@
+import { redirect } from 'next/navigation'
 import Link from 'next/link'
 import TestCard from '@/components/ui/TestCard'
 import { testingOptions } from '@/data/testingOptions'
 
+// 🚀 LAUNCH: remove the next line to go live
+const COMING_SOON = true
+
 export default function Home() {
+  if (COMING_SOON) redirect('/coming-soon')
   const featured = testingOptions.slice(0, 3)
 
   const stats = [
