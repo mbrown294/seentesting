@@ -209,19 +209,14 @@ export default function Home() {
           padding: 'clamp(32px, 5vw, 56px)', textAlign: 'center',
         }}>
           <p style={{ fontSize: '0.85rem', fontWeight: 700, color: 'var(--color-ink-soft)', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: 16 }}>
-            Built by the team behind
+            Want to learn more?
           </p>
-          <a href="https://seenfertility.com" target="_blank" style={{ textDecoration: 'none' }}>
-            <p style={{ fontWeight: 800, fontSize: '1.5rem', color: 'var(--color-ink)', letterSpacing: '-0.02em' }}>
-              Seen <span style={{ color: 'var(--color-electric)' }}>Fertility</span>
-            </p>
-          </a>
-          <p style={{ color: 'var(--color-ink-soft)', maxWidth: 560, margin: '16px auto 0', lineHeight: 1.7 }}>
-            Seen Fertility exists to make fertility care more accessible, honest, and inclusive.
-            Seen Testing is our directory — built to help you find the right first step, wherever you are on your journey.
+          <h2 className="heading-lg" style={{ marginBottom: 16 }}>Fertility testing starts with knowledge</h2>
+          <p style={{ color: 'var(--color-ink-soft)', maxWidth: 560, margin: '0 auto', lineHeight: 1.7 }}>
+            Before you book a test, it helps to understand what you're testing for. Explore our curated fertility resources — written for real people, not clinicians.
           </p>
           <a href="https://seenfertility.com/resources" target="_blank" className="btn-secondary" style={{ marginTop: 24, display: 'inline-flex' }}>
-            Explore Seen Fertility resources →
+            Explore fertility resources →
           </a>
         </div>
       </section>

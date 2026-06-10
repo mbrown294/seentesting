@@ -85,7 +85,7 @@ export async function POST(req: NextRequest) {
               </a>
               <p style="color: #3d3d4a; font-size: 13px; margin-top: 20px; line-height: 1.6;">
                 Want to learn more about fertility testing before you decide?<br>
-                <a href="https://seenfertility.com/resources" style="color: #5b5bd6; font-weight: 600;">Visit Seen Fertility's resource hub →</a>
+                <a href="https://seenfertility.com/resources" style="color: #5b5bd6; font-weight: 600;">Explore our fertility resource hub →</a>
               </p>
             </div>
 
@@ -97,7 +97,7 @@ export async function POST(req: NextRequest) {
                 <a href="${process.env.NEXT_PUBLIC_SITE_URL || 'https://seentesting.com'}/unsubscribe?email=${encodeURIComponent(email)}" style="color: #5b5bd6;">Unsubscribe</a>
               </p>
               <p style="font-size: 12px; color: #3d3d4a; margin: 8px 0 0;">
-                © ${new Date().getFullYear()} Seen Fertility Ltd
+                © ${new Date().getFullYear()} Seen Testing Ltd
               </p>
             </div>
           </div>

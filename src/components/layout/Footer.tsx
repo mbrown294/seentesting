@@ -9,14 +9,7 @@ export default function Footer() {
             seen<span style={{ color: 'var(--color-electric)' }}>testing</span>
           </div>
           <p style={{ color: 'var(--color-ink-soft)', fontSize: '0.875rem', lineHeight: 1.6, maxWidth: 240 }}>
-            Find the right fertility test for you — at home or in clinic, for women, men, and couples.
-          </p>
-          <p style={{ color: 'var(--color-ink-soft)', fontSize: '0.8rem', marginTop: 12 }}>
-            A{' '}
-            <a href="https://seenfertility.com" target="_blank" style={{ color: 'var(--color-electric)', fontWeight: 600 }}>
-              Seen Fertility
-            </a>{' '}
-            initiative
+            Find the right fertility test for you — at home or in clinic, for women, men, and couples across the UK.
           </p>
         </div>
 
@@ -41,7 +34,7 @@ export default function Footer() {
           <p style={{ fontWeight: 700, marginBottom: 16, fontSize: '0.875rem' }}>Learn</p>
           <div style={{ display: 'flex', flexDirection: 'column', gap: 10 }}>
             {[
-              { label: 'Seen Fertility resources', href: 'https://seenfertility.com/resources' },
+              { label: 'Fertility resources', href: 'https://seenfertility.com/resources' },
               { label: 'What is AMH?', href: 'https://seenfertility.com/resources' },
               { label: 'Male fertility basics', href: 'https://seenfertility.com/resources' },
               { label: 'Understanding semen analysis', href: 'https://seenfertility.com/resources' },
@@ -74,7 +67,7 @@ export default function Footer() {
 
       <div style={{ borderTop: '1px solid var(--color-border)', padding: '20px 24px', textAlign: 'center' }}>
         <p style={{ color: 'var(--color-ink-soft)', fontSize: '0.8rem' }}>
-          © {new Date().getFullYear()} Seen Fertility Ltd. All rights reserved.
+          © {new Date().getFullYear()} Seen Testing Ltd. All rights reserved.
         </p>
       </div>
     </footer>

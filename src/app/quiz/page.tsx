@@ -257,7 +257,7 @@ export default function QuizPage() {
                   onChange={e => setMarketingConsent(e.target.checked)}
                 />
                 <span style={{ fontSize: '0.875rem', color: 'var(--color-ink-soft)', lineHeight: 1.5 }}>
-                  I'd also like to receive fertility news, guides, and offers from Seen Fertility. You can unsubscribe any time.
+                  I'd also like to receive fertility news, guides, and offers from Seen Testing. You can unsubscribe any time.
                 </span>
               </label>
             </div>

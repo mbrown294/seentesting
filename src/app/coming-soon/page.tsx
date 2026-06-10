@@ -125,7 +125,7 @@ export default function ComingSoon() {
         )}
 
         <p style={{ color: 'rgba(255,255,255,0.3)', fontSize: '0.8rem', marginTop: 48 }}>
-          A <a href="https://seenfertility.com" target="_blank" style={{ color: 'rgba(255,255,255,0.5)', fontWeight: 600 }}>Seen Fertility</a> initiative
+          <a href="https://seenfertility.com/resources" target="_blank" style={{ color: 'rgba(255,255,255,0.3)', fontSize: '0.8rem' }}>Fertility resources →</a>
         </p>
       </div>
     </div>
